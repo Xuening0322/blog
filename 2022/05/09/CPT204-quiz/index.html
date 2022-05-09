@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="CPT204 Lecture QuizThis is a collection of CPT204 lecture quizzes. Hope it’s helpful for the final.Lecture notes (theory and concepts) will be updated later on…Great thanks to my friend Mingzirui Wu f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CPT204 Quiz">
+<meta property="og:url" content="http://example.com/2022/05/09/CPT204-quiz/index.html">
+<meta property="og:site_name" content="Xuening0322">
+<meta property="og:description" content="CPT204 Lecture QuizThis is a collection of CPT204 lecture quizzes. Hope it’s helpful for the final.Lecture notes (theory and concepts) will be updated later on…Great thanks to my friend Mingzirui Wu f">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/1.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/2.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/3.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/4.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/5.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/6.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/2.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/2.png">
+<meta property="og:image" content="http://example.com/2022/05/09/CPT204-quiz/7.png">
+<meta property="article:published_time" content="2022-05-09T11:45:42.000Z">
+<meta property="article:modified_time" content="2022-05-09T18:18:21.200Z">
+<meta property="article:author" content="Xuening Wang">
+<meta property="article:tag" content="Notes">
+<meta property="article:tag" content="Java">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2022/05/09/CPT204-quiz/1.png">
+
+<link rel="canonical" href="http://example.com/2022/05/09/CPT204-quiz/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>CPT204 Quiz | Xuening0322</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script> 
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Xuening0322</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Nothing special here</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-music fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/09/CPT204-quiz/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Xuening Wang">
+      <meta itemprop="description" content="Music, coding and coffee">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xuening0322">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          CPT204 Quiz
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-05-09 19:45:42" itemprop="dateCreated datePublished" datetime="2022-05-09T19:45:42+08:00">2022-05-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-05-10 02:18:21" itemprop="dateModified" datetime="2022-05-10T02:18:21+08:00">2022-05-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/CPT204/" itemprop="url" rel="index"><span itemprop="name">CPT204</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>28k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>25 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="CPT204-Lecture-Quiz"><a href="#CPT204-Lecture-Quiz" class="headerlink" title="CPT204 Lecture Quiz"></a>CPT204 Lecture Quiz</h1><p>This is a collection of CPT204 lecture quizzes. Hope it’s helpful for the final.<br>Lecture notes (theory and concepts) will be updated later on…<br>Great thanks to my friend Mingzirui Wu for the collecting and organizing the questions.</p>
+<h2 id="Lecture-Quiz-2"><a href="#Lecture-Quiz-2" class="headerlink" title="Lecture Quiz 2"></a>Lecture Quiz 2</h2><h3 id="Question-1"><a href="#Question-1" class="headerlink" title="Question 1"></a>Question 1</h3><p>In the buggy Java code below, is the bug caught by static checking, dynamic checking, or not at all?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> <span class="number">5</span> ;</span><br><span class="line"><span class="keyword">if</span> (n) &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;n is &quot;</span> + n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. static checking<br>b. dynamic checking<br>c. no checking, resulting in wrong answer</p>
+<p>The correct answer is: static checking</p>
+<span id="more"></span> 
+
+<h3 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2"></a>Question 2</h3><p>In the buggy Java code below, is the bug caught by static checking, dynamic checking, or not at all?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">bigNum</span> <span class="operator">=</span> <span class="number">200000</span> ; <span class="comment">// bigNum is 200,</span></span><br><span class="line">bigNum = bigNum * bigNum; <span class="comment">// bigNum should be 4 billion</span></span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. static checking<br>b. dynamic checking<br>c. no checking, resulting in wrong answer</p>
+<p>The correct answer is: no checking, resulting in wrong answer</p>
+<h3 id="Question-3"><a href="#Question-3" class="headerlink" title="Question 3"></a>Question 3</h3><p>In the buggy Java code below, is the bug caught by static checking, dynamic checking, or not at all?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// the probability of an event is prob = 1/5 = 0.</span></span><br><span class="line"><span class="type">double</span> <span class="variable">prob</span> <span class="operator">=</span> <span class="number">1</span> / <span class="number">5</span> ;</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. static checking<br>b. dynamic checking<br>c. no checking, resulting in wrong answer</p>
+<p>The correct answer is: no checking, resulting in wrong answer</p>
+<h3 id="Question-4"><a href="#Question-4" class="headerlink" title="Question 4"></a>Question 4</h3><p>In the buggy Java code below, is the bug caught by static checking, dynamic checking, or not at all?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span> ;</span><br><span class="line"><span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> <span class="number">0</span> ;</span><br><span class="line"><span class="type">int</span> <span class="variable">average</span> <span class="operator">=</span> sum/n;</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. static checking<br>b. dynamic checking<br>c. no checking, resulting in wrong answer</p>
+<p>The correct answer is: dynamic checking</p>
+<h3 id="Question-5"><a href="#Question-5" class="headerlink" title="Question 5"></a>Question 5</h3><p>In the buggy Java code below, is the bug caught by static checking, dynamic checking, or not at all?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">double</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">7</span> ;</span><br><span class="line"><span class="type">double</span> <span class="variable">n</span> <span class="operator">=</span> <span class="number">0</span> ;</span><br><span class="line"><span class="type">double</span> <span class="variable">average</span> <span class="operator">=</span> sum/n;</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. static checking<br>b. dynamic checking<br>c. no checking, resulting in wrong answer</p>
+<p>The correct answer is: no checking, resulting in wrong answer</p>
+<h3 id="Question-6"><a href="#Question-6" class="headerlink" title="Question 6"></a>Question 6</h3><p>Which is the correct snapshot diagram for:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> <span class="string">&quot;Erick&quot;</span>;</span><br></pre></td></tr></table></figure>
+
+<p>Select one:</p>
+<img src="1.png" alt="1" style="zoom: 50%;" />
+
+<p>The correct answer is: b.</p>
+<h3 id="Question-7"><a href="#Question-7" class="headerlink" title="Question 7"></a>Question 7</h3><p>Choose the incorrect statement:</p>
+<p>Select one:<br>a. String is an immutable type.<br>b. StringBuilder is a mutable type.<br>c. final variable cannot be reassigned.<br>d. object pointed by final variable cannot be mutated.<br>e. List is a mutable type.</p>
+<p>The correct answer is: object pointed by final variable cannot be mutated.</p>
+<h3 id="Question-8"><a href="#Question-8" class="headerlink" title="Question 8"></a>Question 8</h3><p>When you try to reassign a final variable, Java compiler will produce a compile error.<br>Therefore, final provides you <u>Answer. a</u> for immutable <u>Answer. b</u>.</p>
+<p>Answers:<br>a. static checking<br>b. references</p>
+<h3 id="Question-9"><a href="#Question-9" class="headerlink" title="Question 9"></a>Question 9</h3><p>Rewrite the variable declaration below using Lists instead of arrays:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span>[][] matrix;</span><br></pre></td></tr></table></figure>
+
+<p>The correct answer is:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;List&gt; matrix;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Question-10"><a href="#Question-10" class="headerlink" title="Question 10"></a>Question 10</h3><p>Given a code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; list1 = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">list1.add(<span class="number">100</span>);</span><br><span class="line">list1.add(<span class="number">200</span>);</span><br><span class="line"><span class="keyword">final</span> List&lt;Integer&gt; list2 = list1;</span><br><span class="line">list1.add(<span class="number">300</span>);</span><br><span class="line"><span class="comment">// If we add a line of code below:</span></span><br><span class="line">list2 = list1;</span><br></pre></td></tr></table></figure>
+
+<p>choose the <strong>correct</strong> statement:<br>Select one:<br>a. there will be an error, detected by static checking.<br>b. there will be an error, detected by dynamic checking.<br>c. there is no error.<br>The correct answer is: there will be an error, detected by static checking.</p>
+<h3 id="Question-11"><a href="#Question-11" class="headerlink" title="Question 11"></a>Question 11</h3><p>Given a code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; list1 = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">list1.add(<span class="number">100</span>);</span><br><span class="line">list1.add(<span class="number">200</span>);</span><br><span class="line"><span class="keyword">final</span> List&lt;Integer&gt; list2 = list1;</span><br><span class="line">list1.add(<span class="number">300</span>);</span><br><span class="line"><span class="comment">// If we add a line of code below:</span></span><br><span class="line">list1.set(<span class="number">1</span>, <span class="number">400</span>);</span><br></pre></td></tr></table></figure>
+
+<p>choose the <strong>correct</strong> statement:<br>Select one:<br>a. there will be an error, detected by static checking.<br>b. there will be an error, detected by dynamic checking.<br>c. there is no error.<br>The correct answer is: there is no error.</p>
+<h3 id="Question-12"><a href="#Question-12" class="headerlink" title="Question 12"></a>Question 12</h3><p>Given a code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; list1 = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">list1.add(<span class="number">100</span>);</span><br><span class="line">list1.add(<span class="number">200</span>);</span><br><span class="line"><span class="keyword">final</span> List&lt;Integer&gt; list2 = list1;</span><br><span class="line">list1.add(<span class="number">300</span>);</span><br><span class="line"><span class="comment">// If we add a line of code below:</span></span><br><span class="line">list2.set(<span class="number">1</span>, <span class="number">400</span>);</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. there will be an error, detected by static checking.<br>b. there will be an error, detected by dynamic checking.<br>c. there is no error.<br>The correct answer is: there is no error.</p>
+<h3 id="Question-13"><a href="#Question-13" class="headerlink" title="Question 13"></a>Question 13</h3><p>Given a code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; list1 = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">list1.add(<span class="number">100</span>);</span><br><span class="line">list1.add(<span class="number">200</span>);</span><br><span class="line"><span class="keyword">final</span> List&lt;Integer&gt; list2 = list1;</span><br><span class="line">list1.add(<span class="number">300</span>);</span><br><span class="line"><span class="comment">// If we add a line of code below:</span></span><br><span class="line">list2.set(<span class="number">3</span>, <span class="number">400</span>);</span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. there will be an error, detected by static checking.<br>b. there will be an error, detected by dynamic checking.<br>c. there is no error.<br>The correct answer is: there will be an error, detected by dynamic checking.</p>
+<h3 id="Question-14"><a href="#Question-14" class="headerlink" title="Question 14"></a>Question 14</h3><p>Create a map named hostel with integer keys and string values, to store room number and tenant name pairs. Then, add a key-value pair for a tenant named Alice in room number 777.</p>
+<p>Select one:</p>
+<p>a.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;Integer, String&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.add(<span class="number">777</span>, <span class="string">&quot;Alice&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>b.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;Integer, String&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.put(<span class="number">777</span>, <span class="string">&quot;Alice&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>c.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;String, Integer&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.add(<span class="string">&quot;Alice&quot;</span>, <span class="number">777</span>);</span><br></pre></td></tr></table></figure>
+
+<p>d.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;String, Integer&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.put(<span class="string">&quot;Alice&quot;</span>, <span class="number">777</span>);</span><br></pre></td></tr></table></figure>
+
+<p>e.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;String, <span class="type">int</span>&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.add(<span class="string">&quot;Alice&quot;</span>, <span class="number">777</span>);</span><br></pre></td></tr></table></figure>
+
+<p>f.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;String, <span class="type">int</span>&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.put(<span class="string">&quot;Alice&quot;</span>, <span class="number">777</span>);</span><br></pre></td></tr></table></figure>
+
+<p>The correct answer is b.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;Integer, String&gt; hostel = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">hostel.put(<span class="number">777</span>, <span class="string">&quot;Alice&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="Lecture-Quiz-3"><a href="#Lecture-Quiz-3" class="headerlink" title="Lecture Quiz 3"></a>Lecture Quiz 3</h2><h3 id="Question-1-1"><a href="#Question-1-1" class="headerlink" title="Question 1"></a>Question 1</h3><p>Somebody wrote a <strong>bad</strong> code that <strong>does not fail fast</strong> (from the Lecture 3):</p>
+<p>Assume today is <strong>January 3, 2019</strong> ;</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">dayOfYear</span><span class="params">(<span class="type">int</span> month, <span class="type">int</span> dayOfMonth, <span class="type">int</span> year)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (month == <span class="number">2</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">3</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">59</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">4</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">90</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">5</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">6</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">7</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">30</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">8</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">9</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">31</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">10</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> +<span class="number">0</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">31</span> + <span class="number">30</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">11</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (month == <span class="number">12</span>) &#123;</span><br><span class="line">        dayOfMonth += <span class="number">31</span> + <span class="number">28</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">31</span> + <span class="number">30</span> + <span class="number">31</span> + <span class="number">31</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> dayOfMonth;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>which means that the correct <code>dayOfYear</code> for this date is 3,<br>since it’s the third day of the year.<br>Now <strong>another programmer</strong> calls that method with arguments as follows:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dayOfYear(<span class="number">1</span>, <span class="number">3</span>, <span class="number">2019</span>)</span><br></pre></td></tr></table></figure>
+
+<p>Choose the correct statement:<br>Select one:<br>a. The programmer did not make a mistake. The method gave the right answer.<br>b. The programmer made a mistake. The method gave the right answer, luckily.<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.<br>d. The programmer made a mistake. The method detected a static error.<br>e. The programmer made a mistake. The method detected a dynamic error.</p>
+<p>The correct answer is:<br>a. The programmer did not make a mistake. The method gave the right answer.</p>
+<h3 id="Question-2-1"><a href="#Question-2-1" class="headerlink" title="Question 2"></a>Question 2</h3><p>Now <strong>another programmer</strong> calls that method with arguments as follows:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dayOfYear(<span class="number">0</span>, <span class="number">3</span>, <span class="number">2019</span>)</span><br></pre></td></tr></table></figure>
+
+<p>Choose the correct statement:<br>Select one:<br>a. The programmer did not make a mistake. The method gave the right answer.<br>b. The programmer made a mistake. The method gave the right answer, luckily.<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.<br>d. The programmer made a mistake. The method detected a static error.<br>e. The programmer made a mistake. The method detected a dynamic error.</p>
+<p>The correct answer is:<br>b. The programmer made a mistake. The method gave the right answer, luckily.</p>
+<h3 id="Question-3-1"><a href="#Question-3-1" class="headerlink" title="Question 3"></a>Question 3</h3><p>Now <strong>another programmer</strong> calls that method with arguments as follows:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dayOfYear(<span class="number">3</span>, <span class="number">1</span>, <span class="number">2019</span>)</span><br></pre></td></tr></table></figure>
+
+<p>Choose the correct statement:<br>Select one:<br>a. The programmer did not make a mistake. The method gave the right answer.<br>b. The programmer made a mistake. The method gave the right answer, luckily.<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.<br>d. The programmer made a mistake. The method detected a static error.<br>e. The programmer made a mistake. The method detected a dynamic error.</p>
+<p>The correct answer is:<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.</p>
+<h3 id="Question-4-1"><a href="#Question-4-1" class="headerlink" title="Question 4"></a>Question 4</h3><p>Now <strong>another programmer</strong> calls that method with arguments as follows:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dayOfYear(<span class="string">&quot;January&quot;</span>, <span class="number">3</span>, <span class="number">2019</span>)</span><br></pre></td></tr></table></figure>
+
+<p>Choose the correct statement:<br>Select one:<br>a. The programmer did not make a mistake. The method gave the right answer.<br>b. The programmer made a mistake. The method gave the right answer, luckily.<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.<br>d. The programmer made a mistake. The method detected a static error.<br>e. The programmer made a mistake. The method detected a dynamic error.</p>
+<p>The correct answer is:<br>d. The programmer made a mistake. The method detected a static error.</p>
+<h3 id="Question-5-1"><a href="#Question-5-1" class="headerlink" title="Question 5"></a>Question 5</h3><p>Now <strong>another programmer</strong> calls that method with arguments as follows:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dayOfYear (<span class="number">2019</span>, <span class="number">1</span>, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+
+<p>Choose the correct statement:<br>Select one:<br>a. The programmer did not make a mistake. The method gave the right answer.<br>b. The programmer made a mistake. The method gave the right answer, luckily.<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.<br>d. The programmer made a mistake. The method detected a static error.<br>e. The programmer made a mistake. The method detected a dynamic error.</p>
+<p>The correct answer is:<br>c. The programmer made a mistake. The method gave the wrong answer, quietly.</p>
+<h3 id="Question-6-1"><a href="#Question-6-1" class="headerlink" title="Question 6"></a>Question 6</h3><p>We should not use global variables. Making a variable into a constant can eliminate the risk of global variables. </p>
+<p>What keyword should be added to such global variables to make them constants?</p>
+<p>The correct answer is: final</p>
+<h3 id="Question-7-1"><a href="#Question-7-1" class="headerlink" title="Question 7"></a>Question 7</h3><p>In the 1990s, the Ariane 5 launch vehicle, designed and built for the European Space Agency, self-destructed 37 seconds after its first launch.</p>
+<p>The reason was a control software bug that went undetected. The Ariane 5’s guidance software was reused from the Ariane 4, which was a slower rocket. When the velocity calculation converted from a 64 - bit floating point number (a double in Java terminology, though this software wasn’t written in Java) to a 16-bit signed integer (a short), it overflowed the small integer and caused an exception to be thrown.</p>
+<p>The exception handler had been disabled for efficiency reasons, so the guidance software crashed. Without guidance, the rocket crashed too. The cost of the failure was $1 billion.</p>
+<p>What ideas does this story demonstrate?<br>Choose the <strong>correct</strong> option.</p>
+<p>Select one:<br>a. High-quality safety-critical software cannot have residual bugs.<br>b. Testing all possible inputs is the best solution to this problem.<br>c. Static checking could have detected this bug.<br>d. Software exhibits discontinuous behavior, unlike many physically-engineered systems.<br>The correct answer is:<br>Software exhibits discontinuous behavior, unlike many physically-engineered systems.</p>
+<h3 id="Question-8-1"><a href="#Question-8-1" class="headerlink" title="Question 8"></a>Question 8</h3><p>Consider the following specification:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* Reverses the end of a string.</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* 012345 012345</span></span><br><span class="line"><span class="comment">* For example: reverseEnd(&quot;Hello, world&quot;, 5) returns &quot;Hellodlrow ,&quot;</span></span><br><span class="line"><span class="comment">* &lt;-----&gt; &lt;-----&gt;</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* With start == 0, reverses the entire text.</span></span><br><span class="line"><span class="comment">* With start == text.length(), reverses nothing.</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> text non-null String that will have its end reversed</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> start the index at which the remainder of the input is reversed,</span></span><br><span class="line"><span class="comment">* requires 0 &lt;= start &lt;= text.length()</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> input text with the substring from start to the end of the string</span></span><br><span class="line"><span class="comment">reversed</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">reverseEnd</span><span class="params">(String text, <span class="type">int</span> start)</span></span><br></pre></td></tr></table></figure>
+
+<p>Which of the following is the best partitions for the start parameter?</p>
+<p>Select one:<br>a. start &#x3D; 0, 0 &lt; start &lt; text.length(), start &#x3D; text.length()<br>b. start &#x3D; 0, start &#x3D; 5, start &#x3D; 100<br>c. start &lt; 0, start &#x3D; 0, start &gt; 0<br>d. start &lt; text.length(), start &#x3D; text.length(), start &gt; text.length()<br>The correct answer is: start &#x3D; 0, 0 &lt; start &lt; text.length(), start &#x3D; text.length()</p>
+<h3 id="Question-9-1"><a href="#Question-9-1" class="headerlink" title="Question 9"></a>Question 9</h3><p>Which of the following is the best partitions for the text parameter?</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* Reverses the end of a string.</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* 012345 012345</span></span><br><span class="line"><span class="comment">* For example: reverseEnd(&quot;Hello, world&quot;, 5) returns &quot;Hellodlrow ,&quot;</span></span><br><span class="line"><span class="comment">* &lt;-----&gt; &lt;-----&gt;</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* With start == 0, reverses the entire text.</span></span><br><span class="line"><span class="comment">* With start == text.length(), reverses nothing.</span></span><br><span class="line"><span class="comment">*</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> text non-null String that will have its end reversed</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> start the index at which the remainder of the input is reversed,</span></span><br><span class="line"><span class="comment">* requires 0 &lt;= start &lt;= text.length()</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> input text with the substring from start to the end of the string</span></span><br><span class="line"><span class="comment">reversed</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">reverseEnd</span><span class="params">(String text, <span class="type">int</span> start)</span></span><br></pre></td></tr></table></figure>
+
+<p>Select one:<br>a. text.length() &#x3D; 0; text.length()-start is odd; text.length()-start is even<br>b. text contains some letters; text contains no letters, but some numbers; text contains neither letters nor numbers<br>c. text.length() &lt; 0; text.length() &#x3D; 0; text.length() &gt; 0<br>d. text is every possible string from length 0 to 100<br>The correct answer is: text.length() &#x3D; 0; text.length()-start is odd; text.length()-start is even</p>
+<h3 id="Question-10-1"><a href="#Question-10-1" class="headerlink" title="Question 10"></a>Question 10</h3><p>Select the incorrect statement about Covering the Partitions:</p>
+<p>Select one:<br>a. For the BigInteger multiply example, using cover each part approach, we can choose 5 test cases.<br>b. The full cartesian approach may not be the best because it could produce too many and redundant test cases.<br>c. The cover each part approach may not be the best because the function may behave differently for a certain combination of inputs.<br>d. For the max example, using full Cartesian approach, we can choose less than 75 test cases because not all combinations are possible.<br>The correct answer is: For the BigInteger multiply example, using cover each part approach, we can choose 5 test cases.</p>
+<h3 id="Question-11-1"><a href="#Question-11-1" class="headerlink" title="Question 11"></a>Question 11</h3><p>In designing the test suite for the Recursive Reverse String problem, we include the empty string as a test case. </p>
+<p>Which testing principle do we use?</p>
+<p>Select one:<br>a. Choose the boundaries in the partition.<br>b. Divide the input space into subdomains.<br>c. Choose one test case from each subdomain.<br>d. Choose one test case from every legal combination of the partition.<br>The correct answer is: Choose the boundaries in the partition.</p>
+<h3 id="Question-12-1"><a href="#Question-12-1" class="headerlink" title="Question 12"></a>Question 12</h3><p>When you write the recursive step of your recursive method, which part of your code that must be reached by it?</p>
+<p>The correct answer is: the base case</p>
+<h3 id="Question-13-1"><a href="#Question-13-1" class="headerlink" title="Question 13"></a>Question 13</h3><p>In solving a problem recursively, you can define a&#x2F;an Answer.A that uses an arbitrary number of<br>parameters.</p>
+<p>The correct answer is: A. Helper Method</p>
+<h2 id="Lecture-Quiz-4"><a href="#Lecture-Quiz-4" class="headerlink" title="Lecture Quiz 4"></a>Lecture Quiz 4</h2><h3 id="Question-1-2"><a href="#Question-1-2" class="headerlink" title="Question 1"></a>Question 1</h3><p>Using your favorite code coverage tool, you add test cases one-by-one, until all reachable statements in<br>your code have been executed at least once.<br>Which coverage guarantee your code has now?</p>
+<p>Select one:<br>a. Statement coverage<br>b. Branch coverage<br>c. Path coverage<br>d. Unit coverage<br>The correct answer is: Statement coverage</p>
+<h3 id="Question-2-2"><a href="#Question-2-2" class="headerlink" title="Question 2"></a>Question 2</h3><p>Consider the following method:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* Sort a list of integers in nondecreasing order. Modifies the list so that</span></span><br><span class="line"><span class="comment">* values.get(i) &lt;= values.get(i+1) for all 0&lt;=i&lt;values.length()- 1</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">sort</span><span class="params">(List&lt;Integer&gt; values)</span> &#123;</span><br><span class="line">    <span class="comment">// choose a good algorithm for the size of the list</span></span><br><span class="line">    <span class="keyword">if</span> (values.length() &lt; <span class="number">10</span>) &#123;</span><br><span class="line">        radixSort(values);</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (values.length() &lt; <span class="number">1000</span>*<span class="number">1000</span>*<span class="number">1000</span>) &#123;</span><br><span class="line">    	quickSort(values);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    	mergeSort(values);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Which test case of the following test cases are likely to be a boundary value produced by <strong>white box testing</strong>?<br>Select one:<br>a. [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]<br>b. the empty list<br>c. [0, 0, 1, 0, 0, 0, 0]<br>d. [1, 2, 3]<br>The correct answer is: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]</p>
+<h3 id="Question-3-2"><a href="#Question-3-2" class="headerlink" title="Question 3"></a>Question 3</h3><p>After fixing a bug that caused test case x fail,<br>you need to rerun all your JUnit tests, not just test case x.</p>
+<p>Select one:<br>a. True<br>b. False<br>The correct answer is ‘True’.</p>
+<h3 id="Question-4-2"><a href="#Question-4-2" class="headerlink" title="Question 4"></a>Question 4</h3><p>Which one of these testing activities follows the principle of regression testing?</p>
+<p>Select one:<br>a. Changes should be tested against all inputs that induced bugs in earlier versions of the code<br>b. Every component in your code should have an associated set of tests that exercises all the corner cases in its specification<br>c. Tests should be written before you write the code as a way of checking your understanding of the specification<br>d. When a new test exposes a bug, you should run it on all previous versions of the code until you find the version where the bug was introduced<br>The correct answer is: Changes should be tested against all inputs that induced bugs in earlier versions of the code</p>
+<h3 id="Question-5-2"><a href="#Question-5-2" class="headerlink" title="Question 5"></a>Question 5</h3><p>Which of these techniques are useful for choosing test cases in test-first programming, before any code is written?</p>
+<p>Select one or more:<br>Partitioning<br>Boundaries<br>Black box<br>Regression<br>Coverage<br>White box<br>Integration</p>
+<p>The correct answers are:<br>Partitioning, Boundaries, Black box</p>
+<h3 id="Question-6-2"><a href="#Question-6-2" class="headerlink" title="Question 6"></a>Question 6</h3><p>Choose the correct statement about a regression test case.</p>
+<p>Select one:<br>a. A regression test case comes from the discovery of a bug<br>b. A regression test case is chosen from the partitions<br>c. A regression test case can come out of black-box testing<br>d. A regression test case can come out of white-box testing<br>The correct answer is: A regression test case comes from the discovery of a bug</p>
+<h3 id="Question-7-2"><a href="#Question-7-2" class="headerlink" title="Question 7"></a>Question 7</h3><p>As a temporary substitute for a method that is not yet to be developed, you write a code to simulate the method’s functionality.<br>The method can then be called by another method that you want to test. Such method is called a&#x2F;an Answer.</p>
+<p>The correct answer is: unit</p>
+<h3 id="Question-8-2"><a href="#Question-8-2" class="headerlink" title="Question 8"></a>Question 8</h3><p>Which button to click to get the Java Visualizer run the next line of your code and show the subsequent visualization?</p>
+<p>Select one:<br>a. Step Into<br>b. Step Over<br>c. Step Out<br>d. Step Off<br>e. Step On<br>The correct answer is: Step Into</p>
+<h3 id="Question-9-2"><a href="#Question-9-2" class="headerlink" title="Question 9"></a>Question 9</h3><p>Write one line of Java code that <em>declares</em> a MyList pointer named <strong>p</strong> and <em>initializes</em> it to the current MyList object.<br>Do not forget to end it with a semicolon.<br>The correct answer is:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">MyList</span> <span class="variable">p</span> <span class="operator">=</span> <span class="built_in">this</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Question-10-2"><a href="#Question-10-2" class="headerlink" title="Question 10"></a>Question 10</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">MyList3</span> <span class="variable">list</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">MyList3</span>( <span class="number">100</span> , <span class="literal">null</span> );</span><br><span class="line">list = <span class="keyword">new</span> <span class="title class_">MyList3</span>( <span class="number">200</span> , list);</span><br><span class="line">list = <span class="keyword">new</span> <span class="title class_">MyList3</span>( <span class="number">300</span> , list);</span><br><span class="line">System.out.println(list.get( <span class="number">0</span> ));</span><br></pre></td></tr></table></figure>
+
+
+<p>What is the println result of:</p>
+<p>The correct answer is: 300</p>
+<h2 id="Lecture-Quiz-5"><a href="#Lecture-Quiz-5" class="headerlink" title="Lecture Quiz 5"></a>Lecture Quiz 5</h2><h3 id="Question-1-3"><a href="#Question-1-3" class="headerlink" title="Question 1"></a>Question 1</h3><p>Consider the two methods to find the value <code>val</code> in an integer array a below. (T or F)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findFirst</span><span class="params">(<span class="type">int</span>[] a, <span class="type">int</span> val)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == val) <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> a.length;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findLast</span><span class="params">(<span class="type">int</span>[] a, <span class="type">int</span> val)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> a.length -<span class="number">1</span> ; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == val) <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>If clients only care about calling the find method when they know that <code>val</code> <em>always occurs exactly once</em> in a, <code>findFirst</code> and <code>findLast</code> are behaviorally equivalent.<br>The correct answer is ‘True’.</p>
+<h3 id="Question-2-3"><a href="#Question-2-3" class="headerlink" title="Question 2"></a>Question 2</h3><p>Consider the two methods to find the value <code>val</code> in an integer array a below. (T or F)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findFirst</span><span class="params">(<span class="type">int</span>[] a, <span class="type">int</span> val)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == val) <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> a.length;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findLast</span><span class="params">(<span class="type">int</span>[] a, <span class="type">int</span> val)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> a.length -<span class="number">1</span> ; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == val) <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Question-3-3"><a href="#Question-3-3" class="headerlink" title="Question 3"></a>Question 3</h3><p>Suppose we’re working on the method below:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* Requires: tiles has length 7 &amp; contains only uppercase letters.</span></span><br><span class="line"><span class="comment">* crossings contains only uppercase letters, without duplicates.</span></span><br><span class="line"><span class="comment">* Effects: Returns a list of words where each word can be made by taking</span></span><br><span class="line"><span class="comment">* letters from tiles and at most 1 letter from crossings.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List&lt;String&gt; <span class="title function_">scrabble</span><span class="params">(String tiles, String crossings)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (tiles.length() != <span class="number">7</span>) &#123; <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">RuntimeException</span>(); &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Which one is a part of the <em>postcondition</em> of scrabble?</p>
+<p>Select one:<br>a. scrabble returns a list of strings<br>b. tiles has only uppercase letters<br>c. crossings has no duplicates<br>d. scrabble takes two arguments<br>The correct answer is: scrabble returns a list of strings</p>
+<h3 id="Question-4-3"><a href="#Question-4-3" class="headerlink" title="Question 4"></a>Question 4</h3><p>Suppose we’re working on the method below:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment">*  Requires: tiles has length 7 &amp;contains only uppercase letters. </span></span><br><span class="line"><span class="comment">*  			 crossings contains only uppercase letters, without duplicates. </span></span><br><span class="line"><span class="comment">*  Effects: Returng a list of words where each word can be made by taking letters </span></span><br><span class="line"><span class="comment">*			from tiles and at most 1 letter from crossinas. </span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> atatic List&lt;string&gt; <span class="title function_">scrabble</span><span class="params">(String tiles,String crossings)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (tiles.length()!=<span class="number">7</span>)[ <span class="keyword">throw</span> newRuntimeException(); </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">&#125;                     </span><br></pre></td></tr></table></figure>
+
+
+
+<p>Which one is <strong>not</strong> a part of the <em>precondition</em> of scrabble?<br>Select one:<br>a. scrabble returns an empty ArrayList<br>b. tiles has length 7<br>c. crossings is a string of uppercase letters<br>d. scrabble’s arguments are of type String and String<br>The correct answer is: scrabble returns an empty ArrayList</p>
+<h3 id="Question-5-3"><a href="#Question-5-3" class="headerlink" title="Question 5"></a>Question 5</h3><p>Suppose we’re working on the method below:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment">*  Requires: tiles has length 7 &amp;contains only uppercase letters. </span></span><br><span class="line"><span class="comment">*  			 crossings contains only uppercase letters, without duplicates. </span></span><br><span class="line"><span class="comment">*  Effects: Returng a list of words where each word can be made by taking letters </span></span><br><span class="line"><span class="comment">*			from tiles and at most 1 letter from crossinas. </span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> atatic List&lt;string&gt; <span class="title function_">scrabble</span><span class="params">(String tiles,String crossings)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (tiles.length()!=<span class="number">7</span>)[ <span class="keyword">throw</span> newRuntimeException(); </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">&#125;                     </span><br></pre></td></tr></table></figure>
+
+<p>Which one is the part of the spec that are <strong>checked statically</strong> by Java?<br>Select one:<br>a. scrabble takes two arguments<br>b. tiles is a string of uppercase letters<br>c. crossings has no duplicates<br>d. when tiles.length() !&#x3D; 7, scrabble throws a RuntimeException<br>The correct answer is: scrabble takes two arguments</p>
+<h3 id="Question-6-3"><a href="#Question-6-3" class="headerlink" title="Question 6"></a>Question 6</h3><p>Which of the following is <strong>not</strong> part of a method’s specification?</p>
+<p>Select one:<br>a. restrictions on used data types<br>b. return type<br>c. restrictions on return values<br>d. number of arguments<br>e. argument types<br>f. restrictions on argument values<br>The correct answer is: restrictions on used data types</p>
+<h3 id="Question-7-3"><a href="#Question-7-3" class="headerlink" title="Question 7"></a>Question 7</h3><p>Alice writes the following code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (a &gt; b) &#123;</span><br><span class="line">        <span class="keyword">return</span> gcd(a-b, b);</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (b &gt; a) &#123;</span><br><span class="line">        <span class="keyword">return</span> gcd(a, b-a);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Bob writes the following test:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span> </span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">gcdTest</span><span class="params">()</span> &#123;</span><br><span class="line">    assertEquals(<span class="number">6</span>, gcd(<span class="number">24</span>, <span class="number">54</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Which of the following statement is incorrect?</p>
+<p>Select one:<br>a. If Alice adds a &gt; 0 to the precondition, Bob should test negative values of a<br>b. If Alice does not add a &gt; 0 to the precondition, Bob should test negative values of a<br>c. Alice should write a &gt; 0, b &gt; 0 in the precondition of gcd<br>d. Alice should not write a and b are integers in the precondition of gcd<br>The correct answer is: If Alice adds a &gt; 0 to the precondition, Bob should test negative values of a</p>
+<h3 id="Question-8-3"><a href="#Question-8-3" class="headerlink" title="Question 8"></a>Question 8</h3><p>Given the following specification:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line">    <span class="keyword">requires</span>: arr[<span class="number">0</span>] == val</span><br><span class="line">    effects: returns index i such that arr[i] == val</span><br></pre></td></tr></table></figure>
+
+<p>Which are the valid test cases for find?</p>
+<p>Select one or more:</p>
+<p>find([ 1, 2, 3 ], 1) must return 0<br>find([ 4, 4, 5 ], 4) must return 0<br>find([ 4, 4, 5 ], 4) must return 1<br>find([ 6, 7, 8 ], 2) throws an exception<br>find([ 3 ], 3) must return 0<br>find([ 4 ], 5) must not return 0</p>
+<p>The correct answers are:<br>find([ 1, 2, 3 ], 1) must return 0, find([ 3 ], 3) must return 0</p>
+<h3 id="Question-9-3"><a href="#Question-9-3" class="headerlink" title="Question 9"></a>Question 9</h3><p>What is a condition that must be preserved and guaranteed to be true during a method’s execution called?<br>The correct answer is: invariant</p>
+<h3 id="Question-10-3"><a href="#Question-10-3" class="headerlink" title="Question 10"></a>Question 10</h3><p>To allow types such as Integer, String, and user-defined types to be a parameter to methods, classes, and interfaces, we use Answer generics.</p>
+<p>Using it, we can create classes that work with different data types.<br>The correct answer is: generic</p>
+<h2 id="Lecture-Quiz-6"><a href="#Lecture-Quiz-6" class="headerlink" title="Lecture Quiz 6"></a>Lecture Quiz 6</h2><h3 id="Question-1-4"><a href="#Question-1-4" class="headerlink" title="Question 1"></a>Question 1</h3><p>Which of the following cannot be null?<br>Select one or more:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> c;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> String str;</span><br><span class="line"><span class="type">int</span>[] arr;</span><br><span class="line">Double d;</span><br><span class="line"><span class="keyword">final</span> BackAccount myBankAccount;</span><br><span class="line">String name;</span><br><span class="line"><span class="type">double</span> d;</span><br></pre></td></tr></table></figure>
+
+<p>The correct answers are:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> c;,</span><br><span class="line"><span class="type">double</span> d;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Question-2-4"><a href="#Question-2-4" class="headerlink" title="Question 2"></a>Question 2</h3><p>Given the following code:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">nope</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">null</span>; 			<span class="comment">// (1)</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> nope(); 		<span class="comment">// (2)</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">b</span> <span class="operator">=</span> <span class="literal">null</span>; 		<span class="comment">// (3)</span></span><br><span class="line">    <span class="keyword">if</span> (a.length() &gt; <span class="number">0</span>) &#123; 	<span class="comment">// (4)</span></span><br><span class="line">        b = a;				<span class="comment">// (5)</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> b; 				<span class="comment">// (6)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Which line contains a static error? ((1) to (6))<br>The correct answer is: (6)</p>
+<h3 id="Question-3-4"><a href="#Question-3-4" class="headerlink" title="Question 3"></a>Question 3</h3><p>Given the same code from Question 2 above:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">nope</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">null</span>; 			<span class="comment">// (1)</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> nope(); 		<span class="comment">// (2)</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">b</span> <span class="operator">=</span> <span class="literal">null</span>; 		<span class="comment">// (3)</span></span><br><span class="line">    <span class="keyword">if</span> (a.length() &gt; <span class="number">0</span>) &#123; 	<span class="comment">// (4)</span></span><br><span class="line">        b = a; 				<span class="comment">// (5)</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> b; 				<span class="comment">// (6)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Suppose you have commented out the line causing the static error in Question 2.<br>Now, which line contains a dynamic error? ((1) to (6))<br>The correct answer is: (4)</p>
+<h3 id="Question-4-4"><a href="#Question-4-4" class="headerlink" title="Question 4"></a>Question 4</h3><p>Suppose we’re building a robot and we want to specify the method</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List <span class="title function_">findPath</span><span class="params">(Point initial, Point goal)</span></span><br></pre></td></tr></table></figure>
+
+<p>which is responsible for path-finding: determining a sequence of Points that the robot should move through to navigate from initial to goal, past any obstacles that might be in the way.</p>
+<p>In the postcondition, we say that <code>findPath</code> will search for paths only up to a bounded length (set elsewhere), and that <strong>it will throw an exception if it fails to find one</strong>.<br>Which exception is the best exception and its type to create, according to Lecture 6?</p>
+<p>Select one:<br>a. a checked PathNotFoundException<br>b. an unchecked PathNotFoundException<br>c. a checked NoPathException<br>d. an unchecked NoPathException<br>The correct answer is: a checked PathNotFoundException</p>
+<h3 id="Question-5-4"><a href="#Question-5-4" class="headerlink" title="Question 5"></a>Question 5</h3><p>Suppose we define a checked exception for the method <code>findPath</code>.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List <span class="title function_">findPath</span><span class="params">(Point initial, Point goal)</span></span><br></pre></td></tr></table></figure>
+
+<p>What will we choose as our superclass?<br>Select one:<br>a. Exception<br>b. Throwable<br>c. Error<br>d. RuntimeException<br>The correct answer is: Exception</p>
+<h3 id="Question-6-4"><a href="#Question-6-4" class="headerlink" title="Question 6"></a>Question 6</h3><p>Suppose we define an unchecked exception for the method <code>findPath</code>.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List <span class="title function_">findPath</span><span class="params">(Point initial, Point goal)</span></span><br></pre></td></tr></table></figure>
+
+<p>What will we choose as our superclass?<br>Select one:<br>a. Exception<br>b. Throwable<br>c. Error<br>d. RuntimeException<br>The correct answer is: RuntimeException</p>
+<h3 id="Question-7-4"><a href="#Question-7-4" class="headerlink" title="Question 7"></a>Question 7</h3><p>Consider this code below for analyzing some Thing objects:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> List&lt;Thing&gt; allTheThing; </span><br><span class="line"></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">analyzeEverything</span><span class="params">()</span>&#123; </span><br><span class="line">    analyzeThing3(); </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">analyzeThings</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123; </span><br><span class="line">        <span class="keyword">for</span> (Thing t : allTheThings)&#123; </span><br><span class="line">            analvzeOneThing(t); </span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (AnalysisException ae)&#123; </span><br><span class="line">        <span class="keyword">return</span>; </span><br><span class="line"></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">analyzeOneThing</span> <span class="params">(Thing t)</span> <span class="keyword">throws</span> AnalysisException&#123;</span><br><span class="line">    <span class="comment">//... </span></span><br><span class="line">    <span class="comment">// ... maybe go past the end of a list </span></span><br><span class="line">    <span class="comment">//.. </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Note that IndexOutOfBoundsException, NullPointerException, and OutOfMemoryError are unchecked exceptions;<br>and AnalysisException is a checked exception.</p>
+<p>Which exception could be thrown by a call to analyzeEverything?</p>
+<p>Select one or more:<br>AnalysisException<br>IndexOutOfBoundsException<br>NullPointerException<br>OutOfMemoryError<br>The correct answers are:<br>IndexOutOfBoundsException, NullPointerException, OutOfMemoryError</p>
+<h3 id="Question-8-4"><a href="#Question-8-4" class="headerlink" title="Question 8"></a>Question 8</h3><p>If we want to construct a different object with the same values as the input object, we use a&#x2F;an <u>Answer.A</u><br>that performs a&#x2F;an <u>Answer.B</u> instead of a shallow copy.<br>The correct answers are:<br>A. copy constructor<br>B. deep copy</p>
+<h3 id="Question-9-4"><a href="#Question-9-4" class="headerlink" title="Question 9"></a>Question 9</h3><p>Write one line of Java code that throws an IllegalArgumentException object with a message “n must not<br>be even” to complete the if statement below:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (n % <span class="number">2</span> == O) &#123;</span><br><span class="line">    <span class="comment">// your code here</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Do not forget to end it with a semicolon.</p>
+<p>The correct answer is: </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;n must not be even&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="Question-10-4"><a href="#Question-10-4" class="headerlink" title="Question 10"></a>Question 10</h3><p>When we throw an IllegalArgumentException object within a method, that method must advertise it in<br>the method signature. (T or F)<br>The correct answer is ‘False’.</p>
+<h2 id="Lecture-Quiz-8"><a href="#Lecture-Quiz-8" class="headerlink" title="Lecture Quiz 8"></a>Lecture Quiz 8</h2><h3 id="Question-1-5"><a href="#Question-1-5" class="headerlink" title="Question 1"></a>Question 1</h3><p>Consider the following implementation:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findFirst</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span><span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[i]==val) <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> arr.length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>and this specification of find:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line">    <span class="keyword">requires</span>: nothing</span><br><span class="line">    effects: returns largest index i such that</span><br><span class="line">            arr[i] == val, or -<span class="number">1</span> <span class="keyword">if</span> no such i</span><br></pre></td></tr></table></figure>
+
+<p>Which inputs demonstrates that findFirst does not satisfy this spec?<br>Select one or more:</p>
+<p>[ 1, 2, 2 ], 2<br>[ 1, 2, 3 ], 2<br>[ 1, 2, 3 ], 4<br>none of all others,<br>findFirst does satisfy this spec!</p>
+<p>The correct answers are:<br>[ 1, 2, 2 ], 2<br>[ 1, 2, 3 ], 4</p>
+<h3 id="Question-2-5"><a href="#Question-2-5" class="headerlink" title="Question 2"></a>Question 2</h3><p>Consider the following implementation:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">findlast</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> arr.length - <span class="number">1</span>; i &gt;= O; i--)&#123; </span><br><span class="line">        <span class="keyword">if</span> (arr[i] ==val) <span class="keyword">return</span> i; </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>and this specification of find:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line">    <span class="keyword">requires</span>: nothing</span><br><span class="line">    effects: returns largest index i such that</span><br><span class="line">            arr[i] == val, or -<span class="number">1</span> <span class="keyword">if</span> no such i</span><br></pre></td></tr></table></figure>
+
+<p>Which inputs demonstrates that findFirst does not satisfy this spec?</p>
+<p>Select one or more:<br>[ 1, 2, 2 ], 2<br>[ 1, 2, 3 ], 2<br>[ 1, 2, 3 ], 4<br>none of all others,<br>findFirst does satisfy this spec!</p>
+<p>The correct answer is: none of all others, findLast does satisfy this spec!</p>
+<h3 id="Question-3-5"><a href="#Question-3-5" class="headerlink" title="Question 3"></a>Question 3</h3><p>For each spec below, which one is <strong>not</strong> deterministic (underdetermined)?</p>
+<p>Select one:</p>
+<p>a. </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line"><span class="keyword">requires</span>: val occurs in arr</span><br><span class="line">effects: returns index i such that arr[i] == val</span><br></pre></td></tr></table></figure>
+
+<p>b.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line"><span class="keyword">requires</span>: val occurs exactly once in arr</span><br><span class="line">effects: returns index i such that arr[i] == val</span><br><span class="line"><span class="keyword">static</span> <span class="type">int</span></span><br></pre></td></tr></table></figure>
+
+<p>c. </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line"><span class="keyword">requires</span>: nothing</span><br><span class="line">effects: returns largest index i such that arr[i] == val, or <span class="number">1</span> <span class="keyword">if</span> no such i</span><br></pre></td></tr></table></figure>
+
+<p>d. </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> val)</span></span><br><span class="line"><span class="keyword">requires</span>: val occurs in arr</span><br><span class="line">effects: returns largest index i such that arr[i] == val</span><br></pre></td></tr></table></figure>
+
+<p>The correct answer is a.</p>
+<h3 id="Question-4-5"><a href="#Question-4-5" class="headerlink" title="Question 4"></a>Question 4</h3><p>Given this specification:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> String <span class="title function_">join</span> <span class="params">(String delimiter, String[] elements)</span></span><br><span class="line">    effects: append together the strings in elements, but at each step</span><br><span class="line">            <span class="keyword">if</span> there are more elementa left insert delimiter</span><br></pre></td></tr></table></figure>
+
+<p>Rewrite the spec so it is declarative, <strong>not</strong> operational.</p>
+<p>Select one:</p>
+<p>a. </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">effects: returns elements joined together with copies of delimiter, i.e.</span><br><span class="line">		elements[<span class="number">0</span>] + delimiter + elements[<span class="number">1</span>] + delimiter + </span><br><span class="line">    	... + delimiter + elements[elements.length-<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+
+<p>b.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">effects: returns the result of adding all elements to a</span><br><span class="line"><span class="keyword">new</span> <span class="title class_">StringJoiner</span>(delimiter)</span><br></pre></td></tr></table></figure>
+
+<p>c.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">effects: returns the result of looping through elements and</span><br><span class="line">alternately appending an element and the delimiter</span><br></pre></td></tr></table></figure>
+
+<p>d.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">effects: returns the result of recursive calls on the elements and</span><br><span class="line"><span class="keyword">while</span> concatenating the delimiter</span><br></pre></td></tr></table></figure>
+
+<p>The correct answer is a.</p>
+<h3 id="Question-5-5"><a href="#Question-5-5" class="headerlink" title="Question 5"></a>Question 5</h3><p>When a specification is strengthened:</p>
+<p>Select one:<br>a. fewer implementations satisfy it, and more clients can use it<br>b. fewer implementations satisfy it, and fewer clients can use it<br>c. more implementations satisfy it, and fewer clients can use it<br>d. more implementations satisfy it, and more clients can use it<br>The correct answer is: fewer implementations satisfy it, and more clients can use it</p>
+<h3 id="Question-6-5"><a href="#Question-6-5" class="headerlink" title="Question 6"></a>Question 6</h3><p>Which of the following is <strong>false</strong> about a pair of specifications <em>A</em> and <em>B</em>?</p>
+<p>Select one:<br>a. A can be stronger than B and have a stronger precondition<br>b. A can be stronger than B and have a weaker precondition<br>c. A can be stronger than B and have the same precondition<br>d. A can be incomparable to B<br>The correct answer is: A can be stronger than B and have a stronger precondition</p>
+<h3 id="Question-7-5"><a href="#Question-7-5" class="headerlink" title="Question 7"></a>Question 7</h3><p>Here are the find specifications from Lecture 8:</p>
+<p><img src="/2022/05/09/CPT204-quiz/2.png" alt="image-20220510015324350"></p>
+<p>We already know that findOneOrMore , FirstIndex is stronger than findOneOrMore, AnyIndex, which is stronger than findExactlyOne.<br>Where is findExactlyOne on the diagram?<br>Select one:</p>
+<p>a.</p>
+<p><img src="/2022/05/09/CPT204-quiz/3.png" alt="image-20220510015600642"></p>
+<p>b.</p>
+<p><img src="/2022/05/09/CPT204-quiz/4.png" alt="image-20220510015614954"></p>
+<p>c.</p>
+<p><img src="/2022/05/09/CPT204-quiz/5.png" alt="image-20220510015627708"></p>
+<p>d.</p>
+<p><img src="/2022/05/09/CPT204-quiz/6.png" alt="image-20220510015640315"></p>
+<p>The correct answer is c.</p>
+<h3 id="Question-8-5"><a href="#Question-8-5" class="headerlink" title="Question 8"></a>Question 8</h3><p>We already know that findOneOrMore , FirstIndex is stronger than findOneOrMore, AnyIndex, which is stronger than findExactlyOne.</p>
+<p><img src="/2022/05/09/CPT204-quiz/2.png" alt="image-20220510015324350"></p>
+<p>How does findCanBeMissing compare to findExactlyOne?</p>
+<p>Select one:<br>a. findCanBeMissing is stronger than findExactlyOne<br>b. findCanBeMissing is weaker than findExactlyOne<br>c. findCanBeMissing and findExactlyOne are incomparable<br>d. none of the options is correct</p>
+<p>The correct answer is: findCanBeMissing is stronger than findExactlyOne</p>
+<h3 id="Question-9-5"><a href="#Question-9-5" class="headerlink" title="Question 9"></a>Question 9</h3><p>We already know that findOneOrMore,FirstIndex is stronger than findOneOrMore,AnyIndex, which is stronger<br>than findExactlyOne.</p>
+<p><img src="/2022/05/09/CPT204-quiz/2.png" alt="image-20220510015324350"></p>
+<p>Where is findCanBeMissing on the diagram?<br>Select one:</p>
+<img src="7.png" alt="627f9096a4714f2400383e49e580967" style="zoom:67%;" />
+
+<p>The correct answer is d.</p>
+<h3 id="Question-10-5"><a href="#Question-10-5" class="headerlink" title="Question 10"></a>Question 10</h3><p>In our ARList implementation, we use a technique called <u>Answer</u> that doubles the size of the array whenever it is full.</p>
+<p>The correct answer is: array doubling.</p>
+<h3 id="Question-11-2"><a href="#Question-11-2" class="headerlink" title="Question 11"></a>Question 11</h3><p>You want to use a generic array using casting in your implementation of a data structure.<br>For example, you write the following line in your constructor or your method:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">T[] elements = (T[]) newObject[numfElements];</span><br></pre></td></tr></table></figure>
+
+<p>Write the annotation that you need to write before the constructor or the method:</p>
+<p>The correct answer is:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@SuppressWarnings(&quot;unchecked&quot;)</span></span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Notes/" rel="tag"># Notes</a>
+              <a href="/tags/Java/" rel="tag"># Java</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/05/09/INT202/" rel="prev" title="INT202 Lecture Notes">
+      <i class="fa fa-chevron-left"></i> INT202 Lecture Notes
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CPT204-Lecture-Quiz"><span class="nav-number">1.</span> <span class="nav-text">CPT204 Lecture Quiz</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-2"><span class="nav-number">1.1.</span> <span class="nav-text">Lecture Quiz 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1"><span class="nav-number">1.1.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2"><span class="nav-number">1.1.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3"><span class="nav-number">1.1.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4"><span class="nav-number">1.1.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5"><span class="nav-number">1.1.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6"><span class="nav-number">1.1.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7"><span class="nav-number">1.1.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8"><span class="nav-number">1.1.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9"><span class="nav-number">1.1.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10"><span class="nav-number">1.1.10.</span> <span class="nav-text">Question 10</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-11"><span class="nav-number">1.1.11.</span> <span class="nav-text">Question 11</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-12"><span class="nav-number">1.1.12.</span> <span class="nav-text">Question 12</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-13"><span class="nav-number">1.1.13.</span> <span class="nav-text">Question 13</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-14"><span class="nav-number">1.1.14.</span> <span class="nav-text">Question 14</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-3"><span class="nav-number">1.2.</span> <span class="nav-text">Lecture Quiz 3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1-1"><span class="nav-number">1.2.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2-1"><span class="nav-number">1.2.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3-1"><span class="nav-number">1.2.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4-1"><span class="nav-number">1.2.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5-1"><span class="nav-number">1.2.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6-1"><span class="nav-number">1.2.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7-1"><span class="nav-number">1.2.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8-1"><span class="nav-number">1.2.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9-1"><span class="nav-number">1.2.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10-1"><span class="nav-number">1.2.10.</span> <span class="nav-text">Question 10</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-11-1"><span class="nav-number">1.2.11.</span> <span class="nav-text">Question 11</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-12-1"><span class="nav-number">1.2.12.</span> <span class="nav-text">Question 12</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-13-1"><span class="nav-number">1.2.13.</span> <span class="nav-text">Question 13</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-4"><span class="nav-number">1.3.</span> <span class="nav-text">Lecture Quiz 4</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1-2"><span class="nav-number">1.3.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2-2"><span class="nav-number">1.3.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3-2"><span class="nav-number">1.3.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4-2"><span class="nav-number">1.3.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5-2"><span class="nav-number">1.3.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6-2"><span class="nav-number">1.3.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7-2"><span class="nav-number">1.3.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8-2"><span class="nav-number">1.3.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9-2"><span class="nav-number">1.3.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10-2"><span class="nav-number">1.3.10.</span> <span class="nav-text">Question 10</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-5"><span class="nav-number">1.4.</span> <span class="nav-text">Lecture Quiz 5</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1-3"><span class="nav-number">1.4.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2-3"><span class="nav-number">1.4.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3-3"><span class="nav-number">1.4.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4-3"><span class="nav-number">1.4.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5-3"><span class="nav-number">1.4.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6-3"><span class="nav-number">1.4.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7-3"><span class="nav-number">1.4.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8-3"><span class="nav-number">1.4.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9-3"><span class="nav-number">1.4.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10-3"><span class="nav-number">1.4.10.</span> <span class="nav-text">Question 10</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-6"><span class="nav-number">1.5.</span> <span class="nav-text">Lecture Quiz 6</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1-4"><span class="nav-number">1.5.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2-4"><span class="nav-number">1.5.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3-4"><span class="nav-number">1.5.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4-4"><span class="nav-number">1.5.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5-4"><span class="nav-number">1.5.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6-4"><span class="nav-number">1.5.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7-4"><span class="nav-number">1.5.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8-4"><span class="nav-number">1.5.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9-4"><span class="nav-number">1.5.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10-4"><span class="nav-number">1.5.10.</span> <span class="nav-text">Question 10</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-Quiz-8"><span class="nav-number">1.6.</span> <span class="nav-text">Lecture Quiz 8</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-1-5"><span class="nav-number">1.6.1.</span> <span class="nav-text">Question 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-2-5"><span class="nav-number">1.6.2.</span> <span class="nav-text">Question 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-3-5"><span class="nav-number">1.6.3.</span> <span class="nav-text">Question 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-4-5"><span class="nav-number">1.6.4.</span> <span class="nav-text">Question 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-5-5"><span class="nav-number">1.6.5.</span> <span class="nav-text">Question 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-6-5"><span class="nav-number">1.6.6.</span> <span class="nav-text">Question 6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-7-5"><span class="nav-number">1.6.7.</span> <span class="nav-text">Question 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-8-5"><span class="nav-number">1.6.8.</span> <span class="nav-text">Question 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-9-5"><span class="nav-number">1.6.9.</span> <span class="nav-text">Question 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-10-5"><span class="nav-number">1.6.10.</span> <span class="nav-text">Question 10</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Question-11-2"><span class="nav-number">1.6.11.</span> <span class="nav-text">Question 11</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Xuening Wang"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Xuening Wang</p>
+  <div class="site-description" itemprop="description">Music, coding and coffee</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Xuening0322" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Xuening0322" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:xuening.wang19@student.xjtlu.edu.cn" title="E-Mail → mailto:xuening.wang19@student.xjtlu.edu.cn" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/images/wechat.jpg" title="WeChat → &#x2F;images&#x2F;wechat.jpg"><i class="fab fa-weixin fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/xuening0322" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;xuening0322" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5299077&auto=0&height=66"></iframe>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xuening Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="Symbols count total">28k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">26 mins.</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="true"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>
