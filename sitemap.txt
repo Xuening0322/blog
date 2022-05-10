@@ -6,7 +6,7 @@ http://example.com/tags/index.html
 http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/Notes/
-http://example.com/tags/Algorithm/
 http://example.com/tags/Java/
-http://example.com/categories/INT202/
+http://example.com/tags/Algorithm/
 http://example.com/categories/CPT204/
+http://example.com/categories/INT202/
