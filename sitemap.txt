@@ -8,4 +8,4 @@ http://example.com/
 http://example.com/tags/Algorithm/
 http://example.com/tags/Notes/
 http://example.com/categories/INT202/
-http://example.com/categories/INT301/
+http://example.com/categories/INT301-Lecture-Notes/
