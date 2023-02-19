@@ -1,5 +1,6 @@
-http://example.com/personal/index.html
+http://example.com/2023/02/17/gitbook/
 http://example.com/about/index.html
+http://example.com/personal/index.html
 http://example.com/2023/02/07/INT303/
 http://example.com/2023/02/06/INT301/
 http://example.com/2023/02/07/CPT208/
@@ -13,7 +14,10 @@ http://example.com/tags/Notes/
 http://example.com/tags/Human-Computer-Interaction/
 http://example.com/tags/Neural-Networks/
 http://example.com/tags/Data-Science/
+http://example.com/tags/Tech-Blogs/
+http://example.com/tags/MacOS/
 http://example.com/categories/INT202/
 http://example.com/categories/INT301/
 http://example.com/categories/CPT208/
 http://example.com/categories/INT303/
+http://example.com/categories/Blogs/
