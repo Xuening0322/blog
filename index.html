@@ -233,7 +233,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-02-22 17:04:06" itemprop="dateModified" datetime="2023-02-22T17:04:06+08:00">2023-02-22</time>
+                <time title="Modified: 2023-02-22 18:41:22" itemprop="dateModified" datetime="2023-02-22T18:41:22+08:00">2023-02-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -292,7 +292,7 @@
 
 <p>This error is caused by a legacy issue with the updated version of Node.js. The error message should also include the path to the JS file where the problem occurs. In this case, it should be a file called <code>polyfills.js</code> located at <code>/opt/homebrew/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/</code>.</p>
 <p>Open the file and comment out lines 62-64:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// fs.stat = statFix(fs.stat)</span><br><span class="line">// fs.fstat = statFix(fs.fstat)</span><br><span class="line">// fs.lstat = statFix(fs.lstat)</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// fs.stat = statFix(fs.stat)</span></span><br><span class="line"><span class="comment">// fs.fstat = statFix(fs.fstat)</span></span><br><span class="line"><span class="comment">// fs.lstat = statFix(fs.lstat)</span></span><br></pre></td></tr></table></figure>
 
 <p>Then re-run the command:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">gitbook -V</span></span><br></pre></td></tr></table></figure>
@@ -321,10 +321,10 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">gitbook init</span></span><br><span class="line">warn: no summary file in this book </span><br><span class="line">info: create README.md </span><br><span class="line">info: create SUMMARY.md </span><br><span class="line"></span><br><span class="line">TypeError [ERR_INVALID_ARG_TYPE]: The &quot;data&quot; argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise</span><br></pre></td></tr></table></figure>
 
 <p>If you encounter this issue, switch to a lower version of Node.js by executing the following commands:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">% </span><span class="language-bash">sudo npm install -g n</span> </span><br><span class="line"><span class="meta prompt_">% </span><span class="language-bash">sudo n 12.16.3</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sudo npm install -g n</span> </span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sudo n 12.16.3</span></span><br></pre></td></tr></table></figure>
 
 <p>Then, run “gitbook init” again to create the “SUMMARY.md” file:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">% gitbook init</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">gitbook init</span></span><br></pre></td></tr></table></figure>
 
 <p>By following these steps, you should now be able to install and use GitBook to create and publish your own documentation. Happy writing!</p>
 
