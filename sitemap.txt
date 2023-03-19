@@ -1,3 +1,4 @@
+http://example.com/2023/03/19/musicgen/
 http://example.com/2023/02/17/gitbook/
 http://example.com/personal/index.html
 http://example.com/about/index.html
@@ -16,6 +17,8 @@ http://example.com/tags/Neural-Networks/
 http://example.com/tags/Data-Science/
 http://example.com/tags/Tech-Blogs/
 http://example.com/tags/MacOS/
+http://example.com/tags/Machine-Learning/
+http://example.com/tags/Computer-Music/
 http://example.com/categories/INT202/
 http://example.com/categories/INT301/
 http://example.com/categories/CPT208/
