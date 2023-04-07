@@ -1,6 +1,6 @@
+http://example.com/personal/index.html
 http://example.com/2023/03/19/musicgen/
 http://example.com/2023/02/17/gitbook/
-http://example.com/personal/index.html
 http://example.com/about/index.html
 http://example.com/2023/02/07/INT303/
 http://example.com/2023/02/06/INT301/
