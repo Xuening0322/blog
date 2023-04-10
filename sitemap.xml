@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://xuening0322.github.io/blog/about/index.html</loc>
     
     <lastmod>2023-04-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/personal/index.html</loc>
+    <loc>https://xuening0322.github.io/blog/personal/index.html</loc>
     
     <lastmod>2023-04-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/19/musicgen/</loc>
+    <loc>https://xuening0322.github.io/blog/2023/03/19/musicgen/</loc>
     
     <lastmod>2023-03-19</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/17/gitbook/</loc>
+    <loc>https://xuening0322.github.io/blog/2023/02/17/gitbook/</loc>
     
     <lastmod>2023-03-19</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/07/INT303/</loc>
+    <loc>https://xuening0322.github.io/blog/2023/02/07/INT303/</loc>
     
     <lastmod>2023-02-07</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/06/INT301/</loc>
+    <loc>https://xuening0322.github.io/blog/2023/02/06/INT301/</loc>
     
     <lastmod>2023-02-06</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/07/CPT208/</loc>
+    <loc>https://xuening0322.github.io/blog/2023/02/07/CPT208/</loc>
     
     <lastmod>2023-02-06</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/05/09/INT202/</loc>
+    <loc>https://xuening0322.github.io/blog/2022/05/09/INT202/</loc>
     
     <lastmod>2023-02-06</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/05/03/hello-world/</loc>
+    <loc>https://xuening0322.github.io/blog/2022/05/03/hello-world/</loc>
     
     <lastmod>2022-05-09</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://xuening0322.github.io/blog/tags/index.html</loc>
     
     <lastmod>2022-05-03</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://xuening0322.github.io/blog/categories/index.html</loc>
     
     <lastmod>2022-05-03</lastmod>
     
@@ -102,72 +102,72 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/Algorithm/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Algorithm/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Notes/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Notes/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Human-Computer-Interaction/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Human-Computer-Interaction/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Neural-Networks/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Neural-Networks/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Data-Science/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Data-Science/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Tech-Blogs/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Tech-Blogs/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/MacOS/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/MacOS/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Machine-Learning/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Machine-Learning/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Computer-Music/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/tags/Computer-Music/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -175,36 +175,36 @@
 
   
   <url>
-    <loc>http://example.com/categories/INT202/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/categories/INT202/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/INT301/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/categories/INT301/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/CPT208/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/categories/CPT208/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/INT303/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/categories/INT303/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Blogs/</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://xuening0322.github.io/blog/categories/Blogs/</loc>
+    <lastmod>2023-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
